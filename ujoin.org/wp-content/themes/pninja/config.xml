@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cu3er>
+	<settings>
+		
+    	<prev_button>
+			<defaults round_corners="5,5,5,5"/>
+			<tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</prev_button>
+		
+    	<prev_symbol>
+			<tweenOver tint="0x000000" />			
+		</prev_symbol>
+		
+    	<next_button>
+			<defaults round_corners="5,5,5,5"/>			
+			<tweenOver tint="0xFFFFFF"  scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</next_button>
+		
+    	<next_symbol>
+			<tweenOver tint="0x000000" />
+		</next_symbol>	
+		
+      <auto_play>
+		  <defaults symbol="circular" time="10" />
+		  <tweenIn x="910" y="50" width="60" height="60" alpha="0.6" tint="0x000000" />
+          <tweenOut tint="0x000000" />
+          <tweenOver alpha="1" tint="0xFFFFFF" />
+      </auto_play>
+		
+			
+	</settings>    
+
+	<slides>
+		<transition num="1" direction="left" />
+        <slide>
+       		<url>/cms/wp-content/themes/pninja/images/slider/slide_0.jpg</url>
+			<link target="_self">/?p=2</link>
+        </slide>	
+		<transition num="1" direction="left" />
+        <slide>
+       		<url>/cms/wp-content/themes/pninja/images/slider/slide_1.jpg</url>
+			<link target="_self">/?p=20</link>
+        </slide>		
+		<transition num="1" direction="left" />
+		<slide>
+            <url>/cms/wp-content/themes/pninja/images/slider/slide_3.jpg</url>
+			<link target="_self">/?p=30</link>
+        </slide>
+		<transition num="1" direction="left" />
+		<slide>
+       		<url>/cms/wp-content/themes/pninja/images/slider/slide_2.jpg</url>
+			<link target="_self">/?p=41</link>
+        </slide>
+		<transition num="1" direction="left"/>
+				
+	</slides>
+</cu3er>
+

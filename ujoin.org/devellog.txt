@@ -1,0 +1,5 @@
+policy ninja devel log
+
+* Created table wp_pn_bills_search_results via phpMyAdmin
+* Pulled data from OpenStates Bill Search API & parsed json response to populate table via php script in functions.php of pninja theme
+* Commented aforementioned script out to avoid pulling duplicates
